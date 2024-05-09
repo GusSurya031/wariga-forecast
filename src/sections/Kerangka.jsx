@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Kerangka() {
   return (
-    <div className='my-32 px-[64px] text-white flex flex-col gap-12 '>
+    <div className='my-16 px-8 sm:px-12 lg:px-16 text-white flex flex-col gap-12 '>
       {/* Judul Konten  */}
-      <div className='font-bold text-[54px] text-center'>
+      <div className='font-bold text-4xl md:text-6xl text-center'>
         <h1>Bagian Kerangka <span className='text-[#FFB400] '>Wariga</span> </h1>
       </div>
       {/* Konten */}
@@ -14,7 +14,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Wewaran</h3>
@@ -34,7 +34,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Pawukon</h3>
@@ -54,7 +54,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Penanggal</h3>
@@ -74,7 +74,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Pangelong</h3>
@@ -94,7 +94,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Sasih</h3>
@@ -114,7 +114,7 @@ export default function Kerangka() {
         {/* Border gradient */}
         <div className='flexorder w-full rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5'>
           {/* Bg-ungu */}
-          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-12'>
+          <div className='flex flex-col gap-3 h-full bg-[#141124] rounded-xl p-6 md:p-8 lg:p-12'>
             {/* judul card */}
             <div className='flex justify-between items-center'>
               <h3 className='text-2xl text-[#FFB400] font-bold '>Dauh</h3>

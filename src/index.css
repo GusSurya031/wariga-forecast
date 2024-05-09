@@ -6,4 +6,29 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color-scheme: dark;
   width: 20px;
   height: 20px;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #120f1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFB400;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 20px;
+  background: #ffb300c6;
 }
