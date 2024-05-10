@@ -7,26 +7,20 @@ import Accordion from '../components/Accordion';
 export default function TanyaWariga() {
   const accordionData = [
     {
-      title: 'Section 1',
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`
+      title: 'Apa itu ramalan harian berdasarkan Wariga?',
+      content: `Ramalan harian berdasarkan wariga merupakan suatu perhitungan kondisi seseorang berdasarkan baik kurangnya kondisi pada hari tersebut. Penentuan baik kurang baiknya dipengaruhi oleh beberapa faktor, faktor tersebut yang menjadi unsur perhitungannya, seperti wewaran, pawukon, penanggal dan panglong, sasih hingga dauh. Jadi unsur ini akan menjadi dasar perhitungan antara hari kelahiran seseorang dengan kondisi hari ini. `
     },
     {
-      title: 'Section 2',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`
+      title: 'Apakah ramalan harian berdasarkan Wariga dapat membantu saya membuat keputusan dalam kehidupan sehari-hari?',
+      content: `Hasil dari perhitungan yang ada pada ramalan harian berdasarkan wariga sebaiknya hanya digunakan sebagai bahan referensi, TIDAK DISARANKAN menjadi dasar dalam membuat keputusan.`
     },
     {
-      title: 'Section 3',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`
+      title: 'Bagaimana saya bisa yakin bahwa ramalan harian yang diberikan sistem ini relevan dengan situasi saya?',
+      content: `Ramalan harian Wariga saat ini hanya memberikan hasil berdasarkan kondisi hari ini dan kondisi hari lahir pengguna. Kedepannya sistem ini akan dikembangkan untuk memberikan hasil yang lebih akurat dengan memanfaatkan seluruh unsur yang ada. Untuk saat ini hanya menjadi perkembangan tahap awal untuk melihat respons pengguna.`
+    },
+    {
+      title: 'Apakah sistem ini dapat digunakan oleh siapa pun, atau apakah ada batasan tertentu?',
+      content: `Ramalan harian berdasarkan wariga dapat digunakan oleh siapapun, tidak ada batasan tertentu`
     }
   ];
 

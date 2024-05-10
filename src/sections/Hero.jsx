@@ -3,11 +3,43 @@ import React from 'react'
 import TopMoon from '../assets/webp/top-moon.webp'
 import LeftMoon from '../assets/webp/left-moon.webp'
 import MiddleMoon from '../assets/webp/middle-moon.webp'
-import WayangDungulan from '../assets/webp/wayang-dungulan.webp'
+
 
 import { useState, useEffect } from 'react'
 import { BalineseDate } from 'balinese-date-js-lib'
 import { Transition } from '@headlessui/react';
+
+//import wayang 
+import WayangSinta from '../assets/webp/sinta_sanghyan_yamadipati.webp';
+import WayangLandep from '../assets/webp/landep_sanghyang_mahadewa.webp';
+import WayangUkir from '../assets/webp/ukir_sanghyang_mahayukti.webp';
+import WayangKulantir from '../assets/webp/kulantir_sanghyang_langsur.webp';
+import WayangTaulu from '../assets/webp/taulu_sanghyang_bayu.webp';
+import WayangGumbreg from '../assets/webp/gumbreg_sanghyang_candra.webp';
+import WayangWariga from '../assets/webp/wariga_sanghyang_smara.webp';
+import WayangWarigadean from '../assets/webp/warigadean_sanghyang_maharsi.webp';
+import WayangJulungwangi from '../assets/webp/julungwangi_sanghyang_sambhu.webp';
+import WayangSungsang from '../assets/webp/sungsang_sanghyang_gana.webp';
+import WayangDunggulan from '../assets/webp/dunggulan_sanghyang_kamajaya.webp';
+import WayangKuningan from '../assets/webp/kuningan_sanghyang_indra.webp';
+import WayangLangkir from '../assets/webp/langkir_sanghyang_kala.webp';
+import WayangMedangsia from '../assets/webp/medangsia_sanghyang_brahma.webp';
+import WayangPujut from '../assets/webp/pujut_sanghyang_gurtna.webp';
+import WayangPahang from '../assets/webp/pahang_sanghyang_tantra.webp';
+import WayangKrulut from '../assets/webp/krulut_sanghyang_wisnu.webp';
+import WayangMerakih from '../assets/webp/merakih_sanghyang_surenggana.webp';
+import WayangTambir from '../assets/webp/tambir_sanghyang_siwa.webp';
+import WayangMedangkungan from '../assets/webp/medangkungan_sanghyang_basuki.webp';
+import WayangMatal from '../assets/webp/matal_sanghyang_sakri.webp';
+import WayangUye from '../assets/webp/uye_sanghyang_kwera.webp';
+import WayangMenail from '../assets/webp/menail_sanghyang_citragotra.webp';
+import WayangPerangbakat from '../assets/webp/perangbakat_sanghyang_bhisma.webp';
+import WayangBala from '../assets/webp/bala_sanghyang_durga.webp';
+import WayangUgu from '../assets/webp/ugu_sanghyang_singhajadma.webp';
+import WayangWayang from '../assets/webp/wayang_bhatara_sri.webp';
+import WayangKelawu from '../assets/webp/kelawu_sanghyang_sadhana.webp';
+import WayangDukut from '../assets/webp/dukut_sanghyang_baruna.webp';
+import WayangWatugunung from '../assets/webp/watugunung_sanghyang_anantabhoga.webp';
 
 
 export default function Hero() {
@@ -23,13 +55,45 @@ export default function Hero() {
 
   //deklarasi tanggal hari ini dan menyesuaikan dengan waktu kalender bali
   const todayDate = new BalineseDate();
-
   const options = {
     year: "numeric",
     month: "long",
     day: "numeric",
     weekday: "long",
   };
+
+  const wayang = {
+    Sinta: WayangSinta,
+    Landep: WayangLandep,
+    Ukir: WayangUkir,
+    Kulantir: WayangKulantir,
+    Tolu: WayangTaulu,
+    Gumbreg: WayangGumbreg,
+    Wariga: WayangWariga,
+    Warigadean: WayangWarigadean,
+    Julungwangi: WayangJulungwangi,
+    Sungsang: WayangSungsang,
+    Dungulan: WayangDunggulan,
+    Kuningan: WayangKuningan,
+    Langkir: WayangLangkir,
+    Medangsia: WayangMedangsia,
+    Pujud: WayangPujut,
+    Pahang: WayangPahang,
+    Krulut: WayangKrulut,
+    Mrakih: WayangMerakih,
+    Tambir: WayangTambir,
+    Medangkungan: WayangMedangkungan,
+    Matal: WayangMatal,
+    Uye: WayangUye,
+    Menail: WayangMenail,
+    Prangbakat: WayangPerangbakat,
+    Bala: WayangBala,
+    Ugu: WayangUgu,
+    Wayang: WayangWayang,
+    Klawu: WayangKelawu,
+    Dukut: WayangDukut,
+    Watugunung: WayangWatugunung,
+  }
 
   useEffect(() => {
     const now = new Date();
@@ -189,10 +253,7 @@ export default function Hero() {
 
         }
         setRekomendasiRamalan(ramalanHariIni);
-        setCaturBekelKahuripan(res)
-        console.log(rekomendasiRamalan);
-        console.log(caturBekelKahuripan);
-
+        setCaturBekelKahuripan(res);
       };
 
       bekelKahuripan(
@@ -352,12 +413,12 @@ export default function Hero() {
 
                 <div className="flex flex-col items-center gap-2">
                   <img
-                    src={WayangDungulan}
-                    alt="Gambar Wayang Dungulan"
+                    src={wayang[balineseDateUser.wukuUser]}
+                    alt={`Gambar Wayang ${balineseDateUser.wukuUser}`}
                     width={150}
                   />
                   <figcaption className="text-center text-white">
-                    Wayang Dungulan
+                    Wayang {balineseDateUser.wukuUser}
                   </figcaption>
                 </div>
               </div>

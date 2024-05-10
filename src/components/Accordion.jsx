@@ -12,9 +12,9 @@ const Accordion = ({ title, content }) => {
     >
       <div className='bg-[#141124] rounded-xl '>
 
-        <div className="title flex justify-between cursor-pointer p-4">
+        <div className="title flex justify-between cursor-pointer p-4 ">
 
-          <div className={isActive ? 'font-bold text-lg text-[#FFB400] ' : 'font-bold text-lg text-white'}>{title}</div>
+          <div className={isActive ? 'font-bold text-lg text-[#FFB400]  ' : 'font-bold text-lg text-white hover:text-[#FFB400] '}>{title}</div>
           <div>{isActive ? '-' : '+'}</div>
         </div>
         <Transition
@@ -26,7 +26,7 @@ const Accordion = ({ title, content }) => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          {isActive && <div className="border-t-2 border-[#FFB400] p-4">{content}</div>}
+          {isActive && <div className="border-t-2 border-[#FFB400] p-4 text-justify leading-8">{content}</div>}
         </Transition>
       </div>
     </div>
