@@ -7,7 +7,7 @@ const Accordion = ({ title, content }) => {
 
   return (
     <div
-      className="max-w-[75%] w-full m-auto rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5 my-4"
+      className="md:max-w-[75%] md:w-full md:m-auto rounded-xl bg-gradient-to-br from-[#493E84] to-[#946800] p-0.5 my-4 md:my-4"
       onClick={() => setIsActive(!isActive)}
     >
       <div className='bg-[#141124] rounded-xl '>

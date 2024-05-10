@@ -32,14 +32,14 @@ export default function TanyaWariga() {
 
 
   return (
-    <section className='text-white mt-[120px] flex flex-col gap-8 justify-center item-center'>
+    <section className='text-white mt-[120px] px-8 sm:px-12 sm:py-4 lg:px-16 flex flex-col gap-8 justify-center item-center'>
       <img src={TopMoon} alt="Moon With Yello Lightning" className='hidden md:block absolute right-0 top-[-10px] z-[-9]' />
       <img src={LeftMoon} alt="Moon With Yello Lightning" className='hidden md:block absolute left-0 bottom-[-80px] z-[-9]' />
-      <div className='flex flex-col gap-6 text-center'>
-        <h1 className=' text-5xl font-bold'>Pertanyaan Terkait Dengan <span className='text-[#FFB400] '>Wariga</span> </h1>
+      <div className='flex flex-col gap-4 text-center'>
+        <h1 className='text-4xl lg:text-5xl font-bold'>Pertanyaan Terkait Dengan <span className='text-[#FFB400] '>Wariga</span> </h1>
         <p>Pertanyaan yang sering diajukan beserta dengan jawabannya</p>
       </div>
-      <div className="mt-16  max-w-[75%] w-full mx-auto">
+      <div className="mt-2 md:mt-8 lg:mt-12">
         {accordionData.map(({ title, content }) => (
           // eslint-disable-next-line react/jsx-key
           <Accordion title={title} content={content} />

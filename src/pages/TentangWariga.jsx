@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 import SubFooter from '../components/SubFooter'
 import Footer from '../components/Footer'
 import InfoWariga from '../sections/InfoWariga'
-import KerangkaWariga from '../sections/KerangkaWariga'
+import KerangkaWariga from '../sections/KerangkaDetail'
 
 export default function TentangWariga() {
   return (
