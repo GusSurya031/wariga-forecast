@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 
 export default function Ramalan() {
   return (
-    <div className="bg-[url('./src/assets/webp/bg-star.webp')] bg-no-repeat bg-cover bg-[center_top]flex flex-col items-center">
+    <div className="bg-[url('./assets/webp/bg-star.webp')] bg-no-repeat bg-cover bg-[center_top]flex flex-col items-center">
       <NavBar />
       <Hero />
       <Definisi />
