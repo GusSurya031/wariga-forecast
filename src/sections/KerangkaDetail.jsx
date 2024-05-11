@@ -2,7 +2,7 @@
 import React from 'react'
 import Wewaran from '../components/Wewaran';
 import Pawukon from '../components/Pawukon';
-import PananggalPanglong from '../components/PananggalPanglong';
+import PananggalPanglong from '../components/PenanggalPanglong';
 import Sasih from '../components/Sasih';
 
 export default function KerangkaWariga() {

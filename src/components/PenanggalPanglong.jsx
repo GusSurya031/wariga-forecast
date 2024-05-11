@@ -12,7 +12,7 @@ export default function PananggalPanglong() {
     setShowAll(false)
   }
 
-  const pananggalData = [
+  const penanggalData = [
     {
       no: 1,
       nama: "Pratipada",
@@ -163,11 +163,11 @@ export default function PananggalPanglong() {
     },
   ]
   return (
-    <section>
+    <section id='Penanggal' >
       {/* Judul Daftar Pananggal */}
       <div>
-        <h3 className="mt-8 text-2xl md:text-3xl font-bold text-[#FFB400] ">
-          Pananggal dan Panglong
+        <h3 className="mt-8 text-2xl md:text-3xl font-bold text-[#FFB400]" id='Panglong'>
+          Penanggal dan Panglong
         </h3>
         <p className="text-sm md:text-base font-light italic ">
           Perhitungan berdasarkan peredaran bulan
@@ -196,14 +196,14 @@ export default function PananggalPanglong() {
               <tbody className='text-sm md:text-base'>
                 {/* Map through the selected wara's data array to render table rows */}
                 {showAll
-                  ? pananggalData.map(({ no, nama, tanggal }) => (
+                  ? penanggalData.map(({ no, nama, tanggal }) => (
                     <tr key={no} className={`${no % 2 === 0 ? 'bg-[#221D3C]' : 'bg-[#3D355E]'}`}>
                       <td className="py-5">{no}</td>
                       <td>{nama}</td>
                       <td>{tanggal}</td>
                     </tr>
                   ))
-                  : pananggalData.slice(0, 5).map(({ no, nama, tanggal }) => (
+                  : penanggalData.slice(0, 5).map(({ no, nama, tanggal }) => (
                     <tr key={no} className={`${no % 2 === 0 ? 'bg-[#221D3C]' : 'bg-[#3D355E]'}`}>
                       <td className="py-5">{no}</td>
                       <td>{nama}</td>

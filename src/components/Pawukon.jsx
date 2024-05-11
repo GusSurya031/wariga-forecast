@@ -194,7 +194,7 @@ export default function Pawukon() {
     },
   ]
   return (
-    <section>
+    <section id="Pawukon" >
       <div>
         <h3 className="mt-8 text-2xl md:text-3xl font-bold text-[#FFB400] ">
           Pawukon

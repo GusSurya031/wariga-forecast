@@ -12,6 +12,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(144deg,
+      rgb(18, 15, 29) 0%,
+      rgba(32, 28, 74, 1) 100%), no-repeat;
+  font-family: "Space Grotesk", sans-serif;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

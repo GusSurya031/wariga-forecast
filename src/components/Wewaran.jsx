@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 
+
 export default function Wewaran() {
   const [selectedWara, setSelectedWara] = useState('ekaWara'); // Default to ekaWara
   const handleButtonClick = (waraName) => {
@@ -412,9 +413,9 @@ export default function Wewaran() {
 
   ]
   return (
-    <section>
+    <section id='Wewaran'>
       <div>
-        <h3 className="text-2xl md:text-3xl font-bold text-[#FFB400]">
+        <h3 className="mt-2 text-2xl md:text-3xl font-bold text-[#FFB400]">
           Daftar Wewaran
         </h3>
         <p className="text-sm md:text-base font-light italic ">
