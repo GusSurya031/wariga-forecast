@@ -105,7 +105,7 @@ export default function Sasih() {
               <tbody className='text-sm md:text-base'>
                 {/* Map through the selected wara's data array to render table rows */}
                 {showAll
-                  ? sasihData.map((no, nama, sanskrta) => (
+                  ? sasihData.map(({ no, nama, sanskrta }) => (
                     <tr key={no} className={`${no % 2 === 0 ? 'bg-[#221D3C]' : 'bg-[#3D355E]'}`}>
                       <td className="py-5">{no}</td>
                       <td>{nama}</td>
