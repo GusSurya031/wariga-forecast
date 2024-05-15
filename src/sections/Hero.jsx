@@ -77,7 +77,7 @@ export default function Hero() {
     Kuningan: WayangKuningan,
     Langkir: WayangLangkir,
     Medangsia: WayangMedangsia,
-    Pujud: WayangPujut,
+    Pujut: WayangPujut,
     Pahang: WayangPahang,
     Krulut: WayangKrulut,
     Mrakih: WayangMerakih,
