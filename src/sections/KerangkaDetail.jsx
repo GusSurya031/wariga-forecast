@@ -20,6 +20,9 @@ export default function KerangkaWariga() {
       <PananggalPanglong />
       {/* Tabel Sasih*/}
       <Sasih />
+      <div className='text-sm md:text-base text-[#BFBFBF] text-center'>
+        <p>Sumber: Buku Wariga Siddhi, 2023</p>
+      </div>
     </div >
   )
 }

@@ -51,6 +51,9 @@ export default function InfoWariga() {
           </div>
         </div>
       </div>
+      <div className='text-sm md:text-base text-[#BFBFBF] text-center'>
+        <p>Sumber: Wariga Pawatekan Wawaran, 2021</p>
+      </div>
     </section>
   );
 }
